@@ -1,0 +1,30 @@
+
+<h1>MoveAndNudgeableDirective</h1>
+<p>MoveAndNudgeableDirective empowers child elements of any container to be freely moved around within the bounds of the container. In addition the elements can be <em>nudged</em> with the arrows keys for precision.</p>
+<p>Check out the <a href="http://derekknox.com/articles/angular-2-move-and-nudgeable-directive" target="_blank">Angular 2 Move and Nudgeable Directive</a> article for details. Here are some notes:</p>
+<ul>
+  <li>The container's css position must be 'relative', 'absolute', or 'fixed'</li>
+  <li>The child elements must has a css position of 'absolute'</li>
+  <li>I bind via [style.height.px] and [style.width.px] to show that the widths/heights of the container and/or the elements can be variable</li>
+</ul>
+
+<div class="move-and-nudgeable-container" 
+     [style.width.px]="500"
+     [style.height.px]="300">
+  
+  <div class="move-and-nudgeable nudge-style-3"
+       move-and-nudgeable
+       [style.width.px]="90"
+       [style.height.px]="30" ></div>
+  
+  <div class="move-and-nudgeable nudge-style-2"
+       move-and-nudgeable
+       [style.width.px]="60"
+       [style.height.px]="60" ></div>
+       
+  <div class="move-and-nudgeable nudge-style-1"
+       move-and-nudgeable
+       [style.width.px]="30"
+       [style.height.px]="30" ></div>
+       
+</div>
