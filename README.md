@@ -1,4 +1,4 @@
-#MoveAndNudgeableDirective
+# MoveAndNudgeableDirective
 
 MoveAndNudgeableDirective is an Angular 2 attribute directive that empowers any HTML element to:
 * Move via drag
@@ -12,11 +12,11 @@ Here are two samples:
 
 View the accompanying article at http://derekknox.com/articles/angular-2-move-and-nudgeable-directive/
 
-##*Notes
+## *Notes
 
 None
 
-##License
+## License
 	
 	The MIT License (MIT)
 
@@ -40,7 +40,7 @@ None
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	SOFTWARE.
 
-##Designed and Developed By
+## Designed and Developed By
 Derek Knox | Braindrop Labs
 
 [@derekknox](https://twitter.com/derekknox)
